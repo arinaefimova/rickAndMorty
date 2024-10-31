@@ -30,7 +30,7 @@ const Header = () => {
 			<Container maxWidth={false} sx={{ maxWidth: "1020px" }}>
 				<div className="header__box">
 					<Link to="/" className="header__logo">
-						<img src="/img/logo.svg" alt="logo" />
+						<img src="img/logo.svg" alt="logo" />
 					</Link>
 					<div className="header__menu menu">
 						<button
