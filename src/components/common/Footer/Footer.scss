@@ -1,0 +1,12 @@
+footer{
+    box-shadow: -2px 0px 8px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 0;
+    font-family: 'Karla';
+    margin-top: 44px;
+    @media (max-width: 770px){
+          margin-top: 26px;
+    }
+}

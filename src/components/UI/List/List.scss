@@ -1,0 +1,30 @@
+.list{
+    margin-top: 61px;
+    @media (max-width: 770px){
+          margin-top: 40px;
+    }
+    &__wrapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px,1fr));
+        gap: 25px 20px;
+       
+        margin-bottom: 48px;
+        @media (max-width: 770px){
+           margin-bottom: 32px;
+      }
+    }
+    &__heading{
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 500;
+        color: var(--text-color);
+        margin-bottom: 24px;
+    }
+    &__error{
+        text-align: center;
+        font-size: 30px;
+        @media (max-width: 770px){
+            font-size: 20px;
+       }
+    }
+}

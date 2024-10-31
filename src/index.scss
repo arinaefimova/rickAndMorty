@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular,500,700,700');
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: 'Roboto';
+  font-size: 16px;
+  --main-color: #000;
+  --text-color:#8E8E93;
+  color: var(--main-color);
+}
+main{
+    flex: 1 1 auto;
+}
+
+body{
+    &.lock {
+		overflow: hidden;
+		touch-action: none;
+		overscroll-behavior: none;
+	}
+}
+.vbox{
+    // display: flex;
+//    gap: 10px;
+   background-color: #7A956B;
+   width: 50px;
+   height: 50px;
+}

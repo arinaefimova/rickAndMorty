@@ -1,0 +1,16 @@
+.btn-back{
+    align-self: flex-start;
+    a{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 16;
+        font-weight: 700;
+        text-transform: uppercase;
+        @media (any-hover: hover){
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}

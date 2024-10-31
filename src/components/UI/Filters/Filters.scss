@@ -1,0 +1,31 @@
+.filters{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 750px){
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+          
+    }
+}
+#demo-simple-select-label{
+    color: rgba(128, 128, 128, 0.506);
+    
+
+    
+}
+.popup{
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__icon{
+        margin-right: 13px !important;
+    }
+    &__box{
+      
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+    }
+}

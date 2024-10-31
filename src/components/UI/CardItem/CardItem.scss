@@ -1,0 +1,35 @@
+.card{
+
+    &__box{
+        text-align: center;
+       
+    }
+    &__inner{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        
+    }
+    &__title{
+        font-size: 20px;
+        line-height: 20px !important;
+        font-weight: 700;
+        margin-bottom: 5px !important;
+
+        white-space: nowrap;       
+        overflow: hidden;          
+        text-overflow: ellipsis; 
+        
+    }
+    &__details{
+        font-size: 14px;
+        &:not(:last-child) {
+            margin-bottom: 10px !important;
+        }
+    }
+    &__info{
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700;
+    }
+}
